@@ -11,18 +11,43 @@
     "lint:fix": "eslint ./src --ext .js,.jsx --fix"
   },
   "devDependencies": {
-    "eslint": "^8.7.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-prettier": "^4.0.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
-    "jquery": "^3.6.0",
-    "prettier": "^2.5.1",
+    "jquery": "^3.6.1",
+    "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "vite": "^2.7.2",
-    "vite-plugin-eslint": "^1.3.0",
-    "eslint-config-prettier": "^8.3.0"
+    "vite": "^3.1.6",
+    "vite-plugin-eslint": "^1.8.1",
+    "yarn-upgrade-all": "^0.7.1"
   },
   "dependencies": {
-    "gsap": "^3.9.1"
-  }
+    "@studio-freight/lenis": "^0.2.9",
+    "@weltn24/minimap.js": "^1.0.0-beta.1",
+    "animejs": "^3.2.1",
+    "draggabilly": "^3.0.0",
+    "dragscroll": "^0.0.8",
+    "gsap": "^3.11.3",
+    "jquery-inview": "^1.1.2",
+    "js-cookie": "^3.0.1",
+    "locomotive-scroll": "^4.1.4",
+    "luxy.js": "^0.1.0",
+    "pagemap": "^1.4.0"
+  },
+  "description": "This is a basic setup with [ViteJs](https://vitejs.dev/) that you can use for your Webflow website.\r `jQuery` is already installed and declared as an external dependency.",
+  "main": "vite.config.js",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f4ma/proposta-comercial.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/f4ma/proposta-comercial/issues"
+  },
+  "homepage": "https://github.com/f4ma/proposta-comercial#readme"
 }

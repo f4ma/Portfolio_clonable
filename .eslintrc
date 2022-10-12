@@ -14,6 +14,9 @@
   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "plugins": ["import", "sort-imports-es6-autofix"],
   "rules": {
+    "prettier/prettier": ["error",{
+      "endOfLine": "auto"}
+    ],
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "import/order": [
       "error",
@@ -27,7 +30,9 @@
           "order": "asc",
           "caseInsensitive": true
         }
+        
       }
     ]
+    
   }
 }
